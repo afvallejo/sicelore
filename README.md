@@ -1,3 +1,8 @@
+# Fasta file
+http://ftp.ensembl.org/pub/release-104/fasta/homo_sapiens/dna/Homo_sapiens.GRCh38.dna.primary_assembly.fa.gz
+
+
+
 
 <img src="sicelore.png">
 
