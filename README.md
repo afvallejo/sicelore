@@ -1,6 +1,13 @@
 # Fasta file
-http://ftp.ensembl.org/pub/release-104/fasta/homo_sapiens/dna/Homo_sapiens.GRCh38.dna.primary_assembly.fa.gz
 
+
+annotation file and Fasta file
+
+https://www.gencodegenes.org/human/
+
+
+$> gtfToGenePred -genePredExt -geneNameAsName2 gencode.vMxxx.primary_assembly.annotation.gtf gencode.vMxxx.primary_assembly.annotation.refflat.txt
+$> paste <(cut -f 12 gencode.vMxxx.primary_assembly.annotation.refflat.txt) <(cut -f 1-10 gencode.vMxxx.primary_assembly.annotation.refflat.txt) > refFlat.txt
 
 
 
